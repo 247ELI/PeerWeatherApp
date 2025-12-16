@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: #111;
+    color: white;
+}
+
+.main-weather {
+    background: url(../assets/blue-sky-and-cloudy-day-free-photo.jpg) center/cover no-repeat;
+    min-height: 100vh;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.4);
+    min-height: 100vh;
+}
+
+.time {
+    font-size: 6rem;
+    font-weight: 300;
+}
+
+.forecast-card {
+    background: rgba(0, 0, 0, 0.65);
+    border-radius: 16px;
+    padding: 15px;
+    width: 110px;
+    text-align: center;
+}
+
+.forecast-card i {
+    font-size: 28px;
+}
+
+.location h2 span {
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+.sidebar {
+    background: rgba(20, 20, 20, 0.95);
+    min-height: 100vh;
+    padding: 25px;
+}
+
+.favorites {
+    padding-left: 0;
+}
+
+.favorites li {
+    list-style: none;
+    margin-bottom: 10px;
+    opacity: 0.85;
+}
+
+.weather-detail {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+img {
+    width: 30px;
+    height: auto;
+
+}
+
+.time {
+    font-size: 6rem;
+    font-weight: 300;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.location {
+    text-align: center;
+}
+
+.forecast-card {
+    background: rgba(0, 0, 0, 0.65);
+    border-radius: 16px;
+    padding: 25px;
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    
+}
+
+.time {
+    font-size: 6rem;
+    font-weight: 300;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
