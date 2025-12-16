@@ -1,6 +1,8 @@
+import {API_KEY} from "./environment.js"
+
 const fetchForecastData = async () => {
     const response = await fetch(
-        "https://api.openweathermap.org/data/2.5/forecast?lat=37.9575&lon=121.2925&units=imperial&appid=c38d419f4bbf24983a49992d1021fb13"
+        `https://api.openweathermap.org/data/2.5/forecast?lat=37.9575&lon=121.2925&units=imperial&appid=${API_KEY}`
     );
 
     const data = await response.json();

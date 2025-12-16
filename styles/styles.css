@@ -3,7 +3,10 @@ body {
     font-family: "Segoe UI", sans-serif;
     background: #111;
     color: white;
+  font-family: "Genos", sans-serif;
+  
 }
+
 
 .main-weather {
     background: url(../assets/blue-sky-and-cloudy-day-free-photo.jpg) center/cover no-repeat;
